@@ -8,11 +8,11 @@ Submission untuk kelas **Belajar Fundamental Front-End Web Development** di Dico
 - Memanfaatkan Webpack sebagai environment dalam pengembangan proyek (tahap development).
 - Memanfaatkan API dengan menggunakan konsep AJAX dalam menampilkan data yang dinamis pada aplikasi yang dibuat.
 
-**Melakukan instalasi**
+### Melakukan instalasi
 ``npm install``
 
-**Mode production**
+### Mode production
 ``npm run build``
 
-**Mode development**
+### Mode development
 ``npm run start-dev``
