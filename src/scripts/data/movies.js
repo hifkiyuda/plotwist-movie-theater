@@ -4,7 +4,7 @@ import displayMovies from './display-movies.js';
 
 class Movies {
   static getNowPlayingMovies() {
-    const apiKey = '2d6a7d40db46bbb6a9cf20f941cdc4a3';
+    const apiKey = 'you can get your own keys on TMDb website';
     return fetch(`https://api.themoviedb.org/3/movie/now_playing?api_key=${apiKey}&language=en-US&page=1`)
       .then((response) => response.json())
       .then((responseJson) => {
@@ -16,7 +16,7 @@ class Movies {
   }
 
   static getTopRatedMovies() {
-    const apiKey = '2d6a7d40db46bbb6a9cf20f941cdc4a3';
+    const apiKey = 'you can get your own keys on TMDb website';
     return fetch(`https://api.themoviedb.org/3/movie/top_rated?api_key=${apiKey}&language=en-US&page=1`)
       .then((response) => response.json())
       .then((responseJson) => {
@@ -28,7 +28,7 @@ class Movies {
   }
 
   static getPopularMovies() {
-    const apiKey = '2d6a7d40db46bbb6a9cf20f941cdc4a3';
+    const apiKey = 'you can get your own keys on TMDb website';
     return fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=en-US&page=1`)
       .then((response) => response.json())
       .then((responseJson) => {
@@ -40,7 +40,7 @@ class Movies {
   }
 
   static getUpcomingMovies() {
-    const apiKey = '2d6a7d40db46bbb6a9cf20f941cdc4a3';
+    const apiKey = 'you can get your own keys on TMDb website';
     return fetch(`https://api.themoviedb.org/3/movie/upcoming?api_key=${apiKey}&language=en-US&page=1`)
       .then((response) => response.json())
       .then((responseJson) => {
