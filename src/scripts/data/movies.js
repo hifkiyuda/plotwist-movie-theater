@@ -4,7 +4,7 @@ import displayMovies from './display-movies.js';
 
 class Movies {
   static getApiKey() {
-    return '2d6a7d40db46bbb6a9cf20f941cdc4a3';
+    return 'you can get your own keys on TMDb website';
   }
 
   static getNowPlayingMovies() {
