@@ -1,4 +1,3 @@
-/* eslint-disable import/extensions */
 import darkLightMode from './dark.js';
 import clock from './clock.js';
 import Movies from '../data/movies.js';

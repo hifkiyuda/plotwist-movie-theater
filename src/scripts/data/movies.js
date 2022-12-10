@@ -1,10 +1,8 @@
-/* eslint-disable no-console */
-// eslint-disable-next-line import/extensions
 import displayMovies from './display-movies.js';
 
 class Movies {
   static getApiKey() {
-    return 'you can get your own keys on TMDb website';
+    return '2d6a7d40db46bbb6a9cf20f941cdc4a3';
   }
 
   static getNowPlayingMovies() {

@@ -1,3 +1,5 @@
+import hero from '../../assets/images/hero-image.jpg';
+
 class MainContent extends HTMLElement {
   constructor() {
     super();
@@ -36,7 +38,7 @@ class MainContent extends HTMLElement {
             .welcome-page {
                 padding: 20px 100px;
                 height: 60vh;
-                background-image: url('https://raw.githubusercontent.com/hifkiyuda/plotwist-assets/master/images/rob-laughter-WW1jsInXgwM-unsplash.jpg');
+                background-image: url(${hero});
                 background-size: cover;
                 background-position: top;
                 background-repeat: no-repeat;
